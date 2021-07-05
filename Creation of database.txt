@@ -1,0 +1,9 @@
+CREATE DATABASE KR;
+USE KR;
+CREATE TABLE logs(
+    id INT NOT NULL AUTO_INCREMENT,
+    ip CHAR(30) NOT NULL,
+    filename CHAR(30) NOT NULL,
+    time DATETIME,
+    PRIMARY KEY (id)
+)
